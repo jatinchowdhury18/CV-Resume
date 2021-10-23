@@ -21,10 +21,10 @@ jobs:
       run: mkdir deploy
 
     - name: Copy CV
-      run: cp CV/cv.pdf
+      run: cp CV/cv.pdf deploy/cv.pdf
 
     - name: Copy Resume
-      run: cp Resume/resume.pdf
+      run: cp Resume/resume.pdf deploy/resume.pdf
 
     - name: Deploy CV/Resume
       if: ${{ github.event_name != 'pull_request' }}
