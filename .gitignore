@@ -7,6 +7,9 @@
 *.fls
 *.out
 *.toc
+*_latexmk
+*.gz
+*.synctex*
 
 ## Intermediate documents:
 *.dvi
@@ -17,9 +20,9 @@
 .*sw[op]
 *~
 
+## VSCode settings files:
+.vscode
+
 ### Mac OS X ###
 ## Mac OS X metadata files:
 *.DS_Store
-
-*.gz
-CV/cv.synctex(busy)
