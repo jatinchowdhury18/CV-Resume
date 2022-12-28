@@ -10,6 +10,7 @@
 *_latexmk
 *.gz
 *.synctex*
+*.xdv
 
 ## Intermediate documents:
 *.dvi
