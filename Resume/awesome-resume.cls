@@ -83,9 +83,7 @@
 \RequirePackage{parskip}
 % Needed to deal hyperlink
 \RequirePackage[hidelinks,unicode,
-                colorlinks=false,
-                allbordercolors={0 0 0},
-                pdfborderstyle={/S/U/W 1}]{hyperref}
+                colorlinks=false]{hyperref}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
@@ -600,7 +598,7 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
-  \vspace{-2.0mm}
+  \vspace{-1.5mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{\textwidth - 3.5cm} R{3.5cm}}
